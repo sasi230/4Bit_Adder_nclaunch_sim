@@ -1,4 +1,4 @@
-# EXP1: 4 Bit Adder functionality verification
+![Screenshot 2024-10-02 101833](https://github.com/user-attachments/assets/e68ab3bc-7f8e-432b-89a5-0365aa69c1f9)# EXP1: 4 Bit Adder functionality verification
 
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
@@ -122,6 +122,7 @@ or
 
 ### Fig 7: Nclaunch Window
 
+
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
 	Inputs: Supplied are Verilog design and test bench codes 
@@ -146,6 +147,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Select the test bench and compile it. It will come under worklib. Under Worklib you can see the module and test-bench. 
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot 2024-10-02 101536](https://github.com/user-attachments/assets/4057d968-7943-4134-a89c-5da247cbbc02)
+
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 	Inputs: Top level design / test bench Verilog codes 
@@ -161,6 +164,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![Screenshot 2024-10-02 104200](https://github.com/user-attachments/assets/b06332b7-31ca-4c88-badd-c4cb086f5a81)
 
 ### Fig 9: Elaboration Launch Option
 
@@ -175,10 +179,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
-
+![Screenshot 2024-10-02 101646](https://github.com/user-attachments/assets/8edd4bde-6e23-4db1-ad15-50feefcdd0bc)
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
-
+![Screenshot 2024-10-02 101735](https://github.com/user-attachments/assets/2945e527-c7f2-46bc-b2b1-a362290e39bd)
 ### Fig 12: Simulation Waveform Window
+![Screenshot 2024-10-02 101833](https://github.com/user-attachments/assets/b4d6c582-962d-4d87-995e-2743bf9ed129)
+
+
 
 
 
