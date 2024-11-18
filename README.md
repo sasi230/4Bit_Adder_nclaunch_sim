@@ -117,16 +117,12 @@ or
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 ![Screenshot 2024-10-02 102815](https://github.com/user-attachments/assets/6108ca8d-2a95-4f16-abda-7035f55143a3)
 
-![Screenshot 2024-10-01 221519](https://github.com/user-attachments/assets/6f0abb5e-40ef-4ced-9fde-2894ea1ac01a)
-
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
-
-![Screenshot 2024-10-02 101402](https://github.com/user-attachments/assets/1a66ef0e-4af3-4de2-8725-a53fd5ee6146)
-
+![Screenshot 2024-10-01 221519](https://github.com/user-attachments/assets/6f0abb5e-40ef-4ced-9fde-2894ea1ac01a)
 ### Fig 5:cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
@@ -136,6 +132,7 @@ or
 •	We are simulating verilog design without using any libraries 
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
+![Screenshot 2024-10-02 101402](https://github.com/user-attachments/assets/1a66ef0e-4af3-4de2-8725-a53fd5ee6146)
 
 ![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 
@@ -149,6 +146,7 @@ or
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
+![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
 ### Fig 7: Nclaunch Window
 
 
